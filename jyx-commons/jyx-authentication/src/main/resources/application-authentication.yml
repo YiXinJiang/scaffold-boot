@@ -1,0 +1,38 @@
+# 用户配置
+user:
+  password:
+    # 密码最大错误次数
+    maxRetryCount: 5
+    # 密码锁定时间（默认10分钟）
+    lockTime: 10
+
+# token配置
+token:
+  # 令牌自定义标识
+  header: Authorization
+  # 令牌密钥
+  secret: ghijabcdefkrstopqxylmnzuvw
+  # 令牌有效期（默认30分钟）
+  expireTime: 30
+
+web:
+  intercept:
+    white-url:
+      - /login
+      - /register
+      - /captchaImage
+      - /download/**
+      - /upload
+      - /system/config/getRegisterValue
+    white-static:
+      - /
+      - /*.html
+      - /**/*.html
+      - /**/*.css
+      - /**/*.js
+      - /profile/**
+    open-api:
+      - /doc.html
+      - /swagger-resources/**
+      - /webjars/**
+      - /v3/**

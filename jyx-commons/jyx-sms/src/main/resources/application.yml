@@ -1,0 +1,8 @@
+spring:
+    sms:
+      ali:
+        regionId:
+        keyId:
+        secret:
+        connectTimeout: 3000
+        readTimeout: 5000

@@ -1,0 +1,11 @@
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-field: delFlag # 全局逻辑删除的字段名
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+      id-type: assign_id
+  configuration:
+    shrink-whitespaces-in-sql: true
+  mapper-locations: classpath*:mapper/**/*Mapper.xml
+  type-aliases-package: com.jyx.**.domain

@@ -1,0 +1,9 @@
+desensitize:
+  enable:
+    log-enable: false
+    api-enable: false
+  log-property:
+    id-card: card
+    username: userName
+    phone: phone
+    address: address

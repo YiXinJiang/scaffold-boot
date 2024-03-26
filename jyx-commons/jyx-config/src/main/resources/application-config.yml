@@ -1,0 +1,17 @@
+logging:
+  level:
+    com.jyx: debug
+    org.springframework: info
+
+springdoc:
+  api-docs:
+    enabled: true # 是否开启接口文档
+knife4j:
+  production: false # 是否生产环境
+  enable: true # 是否开启knife4j-ui增强
+  setting:
+    language: zh-CN
+  basic:
+    enable: false # 是否开启账户密码登录
+    username: admin
+    password: jyx

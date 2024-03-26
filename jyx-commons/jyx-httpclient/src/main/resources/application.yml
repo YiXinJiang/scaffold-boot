@@ -1,0 +1,7 @@
+spring:
+  http:
+    client:
+      #单位毫秒
+      connectTimeout: 3000
+      #单位毫秒
+      readTimeout: 5000
